@@ -7,5 +7,5 @@ vcluster:
       persistence:
         volumeClaim:
           retentionPolicy: Delete
-    exportKubeConfig:
-      server: "https://vcluster-app.edp-delivery-ot-dev:443"
+  exportKubeConfig:
+    server: "https://vcluster-app.edp-delivery-ot-dev:443"
