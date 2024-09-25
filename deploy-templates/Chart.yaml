@@ -1,0 +1,8 @@
+apiVersion: v2
+name: vcluster
+description: Custom Helm chart depending on vcluster
+version: 0.1.0
+dependencies:
+  - name: vcluster
+    version: 0.20.0
+    repository: "https://charts.loft.sh"

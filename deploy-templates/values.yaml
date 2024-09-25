@@ -1,0 +1,11 @@
+vcluster:
+  controlPlane:
+    statefulSet:
+      image:
+        tag: "0.20.0"
+    statefulSet:
+      persistence:
+        volumeClaim:
+          retentionPolicy: Delete
+    exportKubeConfig:
+      server: "https://vcluster-app.edp-delivery-ot-dev:443"
